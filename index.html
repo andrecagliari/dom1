@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOM Interattivo</title>
+  <title>DOM - Paragrafi e Bottoni</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <p id="p1">Questo è il primo paragrafo.</p>
-    <p id="p2">Questo è il secondo paragrafo.</p>
-    <p id="p3">Questo è il terzo paragrafo.</p>
+    <p id="p1">Paragrafo 1</p>
+    <p id="p2">Paragrafo 2</p>
+    <p id="p3">Paragrafo 3</p>
 
-    <button onclick="cambiaColori()">Cambia Colori</button>
-    <button onclick="grassetto()">Grassetto</button>
-    <button onclick="toggleParagrafi()">Mostra/Nascondi</button>
+    <div class="buttons">
+      <button id="colori">Cambia colori</button>
+      <button id="grassetto">Grassetto</button>
+      <button id="toggle">Mostra/Nascondi</button>
+    </div>
   </div>
 
   <script src="main.js"></script>
